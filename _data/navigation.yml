@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Projects"
+  - title: "Apply"
     url: /AI-projects/
-  - title: "Resources"
+  - title: "Learn"
     url: /learning-resources/
   - title: "Blog"
     url: /blog/
