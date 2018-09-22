@@ -13,7 +13,7 @@ tags:
   - Python
   - Numpy
   - Matplotlib
-excerpt: "Whatsapp Message Frequency Analyzer and top used words per user"
+excerpt: "Whatsapp time and top-words frequency analyzer"
 ---
 
 **Just another weekend fun**  
@@ -31,8 +31,8 @@ I have done mainly following things regarding data cleaning:
     - image omitted
     - video omitted
     - GIF omitted
-* Visualization 
+* Visualization  
 A demoable output:  
-![Final result of a day](/images/projects/whatsapp_chat_freq.png)
+![Final result of a day](/images/projects/whatsapp_chat_freq.png)  
 ![Final result of a day](/images/projects/whatsapp_top_words.png)
 The project is available here: [Whatsapp group char Analyzer](https://github.com/vivekec/datascience/tree/gh-pages/projects/misc/whatsapp_msg_analyser)
