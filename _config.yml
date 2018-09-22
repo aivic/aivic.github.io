@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Vivek Kumar"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio_pic.png"
   bio              : "AI practitioner"
   location         : "Mysore, KA, India"
   email            : "vivekjaglan@outlook.com"
