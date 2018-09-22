@@ -1,4 +1,16 @@
 ---
 layout: home
 author_profile: true
+slider:
+  text_color: white
+  shadow_color: black
+  slides: 
+    - image: /images/tutorial/py_logo.png
+      slide_html:
+    - image: /images/tutorial/r_logo.png
+      slide_html: "<h3>La Passione 1/2</h3>Shirley, do you own a Ferrari?"
 ---
+
+{% if page.slider %}
+    {% include slider.html height="50" unit="%" transition="slide" duration="3" %}
+{% endif %}
