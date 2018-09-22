@@ -2,7 +2,7 @@
 layout: archive
 title: "Artificial Intelligence projects"
 permalink: /projects/
-author_profile: true
+author_profile: true  
 ---
 
 {% include base_path %}
