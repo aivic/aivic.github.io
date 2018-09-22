@@ -4,7 +4,7 @@ title: "About"
 ---
 
 ### Hello, World! 
-I'm Vivek Kumar, an Artificial Intelligence practitioner from past 3 years. My interest lies in fields such as -  
+I'm [![](https://img.shields.io/badge/Vivek-Kumar-red.svg)](https://sourcerer.io/vivekec), an Artificial Intelligence practitioner from past 3 years. My interest lies in fields such as -  
 * Machine Learning
 * Deep Learning
 * Data Science
