@@ -1,1 +1,1 @@
-repo. for pages.
+dir. for pages.
