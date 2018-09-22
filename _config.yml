@@ -160,7 +160,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "vivekec" 
+      url: "https://github.com/vivekec" 
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
