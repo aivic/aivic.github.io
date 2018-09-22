@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Artificial Intelligence"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Vivek Kumar"
+description              : "Vivek's contribution towards AI."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -78,9 +78,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "ervivekjaglan"
 facebook:
-  username               :
+  username               : "kr.vivek.chaudhary"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -101,11 +101,34 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Vivek Kumar"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "AI practitioner"
+  location         : "Mysore, KA, India"
+  email            : "vivekjaglan@outlook.com"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "kr.vivek.chaudhary"
+  foursquare       :
+  github           : "vivekec"
+  google_plus      : 
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "krvivekchaudhary"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : "6126603/dataleo" 
+  steam            :
+  tumblr           :
+  twitter          : "ervivekjaglan"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
