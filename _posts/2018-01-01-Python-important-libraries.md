@@ -1,5 +1,5 @@
 ---
-title: "Python important libraries"
+title: "Python libraries"
 header:
   teaser: /images/tutorial/py_logo.png
 date: 2018-01-01
@@ -16,7 +16,7 @@ tags:
   - Seaborn
   - Bokeh
   - Scikit-Learn
-excerpt: "Python libraries for data analysis, visualization and machine learning."
+excerpt: "Basics of python libraries for data analysis, visualization and machine learning."
 ---
 
 **Constantly updated repository**  
