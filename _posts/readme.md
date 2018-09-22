@@ -1,1 +1,1 @@
-repo for posts
+dir. for posts
