@@ -1,7 +1,7 @@
 ---
 title: "Oracle SQL basics"
 header:
-  teaser: /images/tutorial/oracle_sql.jpg
+  teaser: /images/tutorial/oracle_sql_logo.png
 date: 2018-06-20
 categories:
   - Tutorial
