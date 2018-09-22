@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Artificial Intelligence blogs"
-permalink: /blog/
+title: "Frequent activities"
+permalink: /activity/
 author_profile: true  
 ---
 To be updated soon...
@@ -10,7 +10,7 @@ To be updated soon...
 
 <div class="grid__wrapper">
   {% for post in site.posts %}
-    {% if post.categories contains 'Blog' %}
+    {% if post.categories contains 'Activity' %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
