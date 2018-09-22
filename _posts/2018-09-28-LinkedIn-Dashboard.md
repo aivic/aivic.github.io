@@ -19,7 +19,9 @@ excerpt: "Interactive Visualization of skills on LinkedIn"
 Objective is to create a dashboard consisting of skills provided on LinkedIn and other common user details.  
 Implemented using D3.js and Plotly.  
 Currently you need to hard-code the values to *interests.html* and *user.html* files for visualizations.  
-  
+A demoable output:  
+![Final result of 2 days](/images/projects/LinkedIn_dash_out.png)
+
 The project is available here: [LinkedIn Dashboard](https://github.com/vivekec/datascience/tree/gh-pages/projects/LIN%20dash)
 <hr/>
 References: (All retrieved between May 3-7, 2018)<br/>
