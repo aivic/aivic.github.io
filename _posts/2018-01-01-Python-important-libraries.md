@@ -1,7 +1,7 @@
 ---
 title: "Python important libraries"
 header:
-  teaser: /images/projects/py_logo.png
+  teaser: /images/tutorial/py_logo.png
 date: 2018-01-01
 categories:
   - Tutorial
