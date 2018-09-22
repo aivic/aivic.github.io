@@ -8,7 +8,7 @@ I'm Vivek Kumar, an Artificial Intelligence practitioner from past 3 years. My i
 * Machine Learning
 * Deep Learning
 * Data Science
-* Exploratory Analysis
+* Exploratory Data Analysis
 * Data Visualization
 * Time series forecasting
 
