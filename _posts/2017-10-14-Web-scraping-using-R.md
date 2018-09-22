@@ -9,7 +9,7 @@ tags:
   - Web scraping
   - data Cleaning
   - R
-excerpt: "Simple web-scraping of laptop price from Amazon"
+excerpt: "Simple web-scraping of laptops' price from Amazon"
 ---
 
 **Just another weekend fun**  
