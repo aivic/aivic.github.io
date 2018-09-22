@@ -4,7 +4,6 @@ title: "Artificial Intelligence resources"
 permalink: /learning-resources/
 author_profile: true  
 ---
-To be updated soon...
 
 {% include base_path %}
 
