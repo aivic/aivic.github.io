@@ -4,6 +4,7 @@ title: "Artificial Intelligence blogs"
 permalink: /blog/
 author_profile: true  
 ---
+To be updated soon...
 
 {% include base_path %}
 
