@@ -1,8 +1,9 @@
 ---
-layout: archive
+layout: post
 title: "Artificial Intelligence projects"
 permalink: /AI-projects/
 author_profile: true  
+breadcrumbs: true
 ---
 
 
