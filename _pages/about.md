@@ -10,3 +10,4 @@ I, [![](https://img.shields.io/badge/Vivek-Kumar-red.svg)](https://sourcerer.io/
 *NOTE - open below image in a new tab to zoom for clarity and download it*
 
 ![Resume](/images/VK_resume.png)
+![Tech Logos](/images/tech_logos.png)
