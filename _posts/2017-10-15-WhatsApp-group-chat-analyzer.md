@@ -35,4 +35,4 @@ I have done mainly following things regarding data cleaning:
 A demoable output:  
 ![Final result of a day](/images/projects/whatsapp_chat_freq.png)  
 ![Final result of a day](/images/projects/whatsapp_top_words.png)
-The project is available here: [Whatsapp group char Analyzer](https://github.com/vivekec/datascience/tree/gh-pages/projects/misc/whatsapp_msg_analyser)
+The project is available here: [Whatsapp group chat analyzer](https://github.com/vivekec/datascience/tree/gh-pages/projects/misc/whatsapp_msg_analyser)
