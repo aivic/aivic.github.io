@@ -9,4 +9,4 @@ I, [![](https://img.shields.io/badge/Vivek-Kumar-red.svg)](https://sourcerer.io/
 
 [Download Resume](https://github.com/vivekec/certifications/blob/master/VK_resume.pdf)
 
-![](https://github.com/vivekec/certifications/blob/master/VK_resume.png)
+![Resume](https://github.com/vivekec/certifications/blob/master/VK_resume.png)
