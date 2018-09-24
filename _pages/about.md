@@ -7,4 +7,4 @@ title: "About"
 I, [![](https://img.shields.io/badge/Vivek-Kumar-red.svg)](https://sourcerer.io/vivekec) welcome you to my webpage. To know more about me refer below.
 
 
-![Alt](https://github.com/vivekec/certifications/blob/master/VK_resume.pdf)
+[embed]https://github.com/vivekec/certifications/blob/master/VK_resume.pdf[/embed]
