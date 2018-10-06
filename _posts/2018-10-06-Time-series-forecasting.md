@@ -14,5 +14,5 @@ excerpt: "Time series implementation in Python and R"
 ---
 
 **Constantly updated repository**  
-[Python version](https://github.com/vivekec/machineLearning/blob/master/time%20series/Time%20Series%20simplified.ipynb)
+[Python version](https://github.com/vivekec/machineLearning/blob/master/time%20series/Time%20Series%20simplified.ipynb)  
 [R version](https://github.com/vivekec/machineLearning/blob/master/time%20series/TS.R)
