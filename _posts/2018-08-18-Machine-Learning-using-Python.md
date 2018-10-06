@@ -12,10 +12,10 @@ excerpt: "Machine Learning algorithms implementation in Python."
 ---
 
 **Constantly updated repository**  
+[Machine Learning notes](https://github.com/vivekec/machineLearning/blob/master/docs/ML_notes.pdf)
 
 Get a basic overview of Python libraries to implement common machine learning algos. Source: libraries' official website.  
 Ipython notebooks:
-* [Machine Learning notes](https://github.com/vivekec/machineLearning/blob/master/docs/ML_notes.pdf)
 * [Regression types](https://github.com/vivekec/machineLearning/blob/master/base_algos/python/1.%20Regression%20types.ipynb)
 * [Logistic regression](https://github.com/vivekec/machineLearning/blob/master/base_algos/python/2.%20Logistic%20regression.ipynb)
 * [kNN](https://github.com/vivekec/machineLearning/blob/master/base_algos/python/3.%20kNN.ipynb)
