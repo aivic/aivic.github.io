@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning using Keras in Python"
 header:
-  teaser: /images/tutorial/keras_logo.png
+  teaser: /images/tutorial/keras_logo.PNG
 date: 2018-10-06
 categories:
   - Tutorial
