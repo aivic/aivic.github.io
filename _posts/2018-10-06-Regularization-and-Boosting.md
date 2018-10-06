@@ -1,7 +1,7 @@
 ---
 title: "Regularization and Boosting"
 header:
-  teaser: /images/tutorial/sklearn_logo.png
+  teaser: /images/tutorial/regularization_logo.png
 date: 2018-10-06
 categories:
   - Tutorial
