@@ -13,6 +13,7 @@ excerpt: "Machine Learning algorithms implementation in C++."
 ---
 
 **Constantly updated repository**  
+[Machine Learning notes](https://github.com/vivekec/machineLearning/blob/master/docs/ML_notes.pdf)
 
 Get a basic overview of C++ library to implement common machine learning algos. Source: library official website.  
 C++ scripts:
