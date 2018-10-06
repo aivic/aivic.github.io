@@ -12,6 +12,7 @@ excerpt: "Machine Learning algorithms implementation in R."
 ---
 
 **Constantly updated repository**  
+[Machine Learning notes](https://github.com/vivekec/machineLearning/blob/master/docs/ML_notes.pdf)
 
 Get a basic overview of R libraries to implement common machine learning algos. Source: libraries' official docs.  
 Ipython notebooks:
