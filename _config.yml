@@ -113,7 +113,7 @@ author:
   flickr           :
   facebook         : "kr.vivek.chaudhary"
   foursquare       :
-  github           : "vivekec"
+  github           : "aivic"
   google_plus      : 
   keybase          :
   instagram        :
@@ -160,7 +160,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/vivekec" 
+      url: "https://github.com/aivic" 
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
