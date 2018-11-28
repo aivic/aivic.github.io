@@ -10,7 +10,7 @@ To be updated soon...
 
 <div class="grid__wrapper">
   {% for post in site.posts %}
-    {% if post.categories contains 'Activity' %}
+    {% if post.categories contains 'Blogs' %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
