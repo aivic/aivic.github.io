@@ -1,1 +1,1 @@
-repo holding blogs teaser images
+dir holding blogs teaser images
