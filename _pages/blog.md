@@ -4,7 +4,7 @@ title: "Frequent activities"
 permalink: /activity/
 author_profile: true  
 ---
-To be updated soon...
+
 
 {% include base_path %}
 
