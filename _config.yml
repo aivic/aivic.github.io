@@ -129,7 +129,7 @@ author:
   weibo            :
   xing             :
   youtube          : 
-  medium           : "vivekjaglan"
+  medium           : "@vivekjaglan"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -149,6 +149,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      # url: "https://medium.com/"   
 
 # Site Footer
 footer:
