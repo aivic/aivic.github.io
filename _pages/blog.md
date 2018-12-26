@@ -5,6 +5,8 @@ permalink: /activity/
 author_profile: true  
 ---
 
+For complete blogs refer my [Medium](https://medium.com/@vivekjaglan) channel.
+
 
 {% include base_path %}
 
@@ -16,5 +18,3 @@ author_profile: true
   {% endfor %}
 </div>
 
-
-For complete blogs refer my [Medium](https://medium.com/@vivekjaglan) channel.
