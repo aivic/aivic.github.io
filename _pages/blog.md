@@ -15,3 +15,6 @@ author_profile: true
     {% endif %}
   {% endfor %}
 </div>
+
+
+For complete blogs refer my [Medium](https://medium.com/@vivekjaglan) channel.
