@@ -11,6 +11,7 @@ tags:
   - R
   - Scraping
   - StackOverflow
+  - Kaggle
   - API  
 excerpt: "Making a dataset on Pandas question answered by 40 Gold users"
 ---
