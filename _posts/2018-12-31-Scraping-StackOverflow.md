@@ -38,6 +38,7 @@ Now I have a CSV file in which I stored the username and their IDs. I choose 10 
 This resulted into 4 CSV files which is concatenated using given code in Python (code linked [here](https://github.com/aivic/blogs/blob/master/SO-pandas-dataset/concat_sets.py)) resulting into a final CSV file uploaded as [Kaggle dataset](https://www.kaggle.com/vivek42/pandas-qa-on-stack-overflow/home).
 
 
-Your takeaways - Visit [Kaggle](https://www.kaggle.com/vivek42/pandas-qa-on-stack-overflow/home), read the Overview and try to arrive on a result which answers *What it takes for an answer to be accepted when one of the associated tag is "pandas"*
+# Your takeaways 
+Visit [Kaggle](https://www.kaggle.com/vivek42/pandas-qa-on-stack-overflow/home), read the Overview and try to arrive on a result which answers *What it takes for an answer to be accepted when one of the associated tag is "pandas"*
 
 Happy learning!
