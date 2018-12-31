@@ -2,7 +2,7 @@
 title: "Scraping Overflow"
 date: 2018-12-31
 header:
-  teaser: /images/blogs/SO_logo.png
+  teaser: /images/blogs/so_logo.png
 categories:
   - Blogs
 tags: 
