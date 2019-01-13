@@ -4,7 +4,7 @@ header:
   teaser: /images/projects/web_scrape_R.png
 date: 2017-10-14
 categories:
-  - Project
+  - Blogs
 tags: 
   - Web scraping
   - data Cleaning
