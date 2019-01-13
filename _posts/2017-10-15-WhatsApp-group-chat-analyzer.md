@@ -1,10 +1,10 @@
 ---
-title: "WhastApp group chat analyzer"
+title: "WhatsApp group chat analyzer"
 header:
   teaser: /images/projects/whatsapp_logo.png
 date: 2017-10-15
 categories:
-  - Project
+  - Blogs
 tags: 
   - Machine learning
   - Exploratory data analysis
