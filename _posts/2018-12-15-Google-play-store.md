@@ -4,7 +4,7 @@ header:
   teaser: /images/projects/google_play_logo.png
 date: 2018-12-15
 categories:
-  - Project
+  - Blogs
 tags: 
   - Exploratory data analysis
   - Data visualization
