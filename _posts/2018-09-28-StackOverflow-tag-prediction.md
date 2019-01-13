@@ -44,7 +44,7 @@ We start by creating a database using [SQLite](https://www.sqlite.org/index.html
 ### Step 2: Checking duplicates
 To fetch number of duplicates from .db file, we run following command -  
 ```python
-pd.read_sql_query("""SELECT Title, Body, Tags, COUNT(\*) as cnt_dup FROM data GROUP BY Title, Body, Tags""")
+pd.read_sql_query("""SELECT Title, Body, Tags, COUNT(*) as cnt_dup FROM data GROUP BY Title, Body, Tags""")
 ```
 
 giving us 1827881 questions as duplicate, nearly 30.29% 
@@ -104,9 +104,30 @@ Also, we can look for top-most 20 tags using a bar-chart.
 
 ![](/images/projects/Kaggle_StackOverflow_tag_prediction/4.png)
 
-### Data preprocessing
+### Step 4: Data preprocessing
+Following the standard data preprocessing steps-  
+* Separate out code-snippets from Body (codes can be separated out by looking for <code> code_body </code>)
+* Remove Special characters from Question title and description (excluding code)
+* Remove stop words (Except 'C', since 'C' is a programming language)
+* Remove HTML Tags using RegEx
+* Convert all the characters into lowercase
+* Use SnowballStemmer to stem the words
 
+### Step 5: Data modeling
+Since we are dealing with a multi-label classification problem, it would be easy, if it can be converted into a multi-class classification problem where we can implement commonly known algorithms like kNN, SVM, LR, etc. [This](https://www.analyticsvidhya.com/blog/2017/08/introduction-to-multi-label-classification/) article conveys information about the same.  
 
+So, let us perform one hot encoding on our tags which will result into nearly 42k columns each representing a tag. Since this has increased the dimension too much, we can follow **partial coverage** to select only those tags which occur too frequently. Performed on a sample of 1M questions, choosing only top 500 tags are able to cover 90% of questions, whereas choosing only 5500 tags can cover 99% of questions. So, we drop all other tag columns except these 5500.  
+
+Next step involves data train-test split in the ratio 80:20.
+
+**Featurization**  
+
+Taking TF-IDF of unigram, bigram and trigrams, tokenization included, results into a sparse matrix of TF-IDF features featured as columns for X_train and X_test against Y_train and Y_test (5500 target columns).
+
+**Implementing Logistic Regression: OneVsRest Classifier**
+Since we have a high dimensionality in the data, we prefer LR over SVM, RF or GBDTs, also favoring to its low computational requirements against others.
+
+The final model gave us a mean F-score of 0.34. 
 
 
 # References
