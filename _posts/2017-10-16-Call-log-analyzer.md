@@ -4,7 +4,7 @@ header:
   teaser: /images/projects/call_log_logo.png
 date: 2017-10-16
 categories:
-  - Project
+  - Blogs
 tags: 
   - Machine learning
   - Exploratory data analysis
