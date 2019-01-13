@@ -132,3 +132,5 @@ The final model gave us a mean F-score of 0.34.
 
 # References
 * [Applied AI course](https://www.appliedaicourse.com)
+* [Kaggle](https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction)
+* [Stack Overflow](https://www.stackoverflow.com)
