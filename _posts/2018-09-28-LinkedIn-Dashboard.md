@@ -4,7 +4,7 @@ header:
   teaser: /images/projects/linkedin_logo.png
 date: 2018-05-07
 categories:
-  - Project
+  - Blogs
 tags: 
   - Machine learning
   - Data visualization
