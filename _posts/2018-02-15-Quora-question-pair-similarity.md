@@ -84,7 +84,7 @@ As observed from above plots, the PDFs of `word_share` for 0 and 1 can be useful
 
 ![](/images/projects/Quora_Question_Pair/5.png)  
 
-The `word_Common` doesn't help much in distinguishing 0 from 1.
+The `word_Common` doesn't help much in distinguishing 0 from 1.  
 
 ## Text preprocessing
 
@@ -93,6 +93,62 @@ The `word_Common` doesn't help much in distinguishing 0 from 1.
 * Performing stemming
 * Removing Stopwords
 * Expanding contractions (expanding % symbol to percentage, etc)
+
+## Advanced feature engineering
+
+Added 15 more advanced features after tokenization including features from [fuzzywuzzy](https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/)
+
+* cwc_min = common_word_count / (min(len(q1_words), len(q2_words))
+* cwc_max = common_word_count / (max(len(q1_words), len(q2_words))
+* csc_min = common_stop_count / (min(len(q1_stops), len(q2_stops))
+* csc_max = common_stop_count / (max(len(q1_stops), len(q2_stops))
+* ctc_min = common_token_count / (min(len(q1_tokens), len(q2_tokens))
+* ctc_max = common_token_count / (max(len(q1_tokens), len(q2_tokens))
+* last_word_eq = int(q1_tokens[-1] == q2_tokens[-1])
+* first_word_eq = int(q1_tokens[0] == q2_tokens[0])
+* abs_len_diff = abs(len(q1_tokens) - len(q2_tokens))
+* mean_len = (len(q1_tokens) + len(q2_tokens))/2
+* fuzz_ratio
+* fuzz_partial_ratio
+* token_sort_ratio
+* token_set_ratio 
+* longest_substr_ratio = len(longest common substring) / (min(len(q1_tokens), len(q2_tokens))
+
+## Feature analysis
+
+### Frequency of duplicate question pairs
+
+![](/images/projects/Quora_Question_Pair/6.png)  
+
+### Frequency of non-duplicate question pairs
+
+![](/images/projects/Quora_Question_Pair/7.png)  
+
+### Pair plot of features ['ctc_min', 'cwc_min', 'csc_min', 'token_sort_ratio'] 
+
+![](/images/projects/Quora_Question_Pair/8.png)  
+
+As can be observed from the plots, there lies partial separability among features which can be quite helpful in distinguishing 0 from 1.
+
+### Distribution of the token_sort_ratio
+
+![](/images/projects/Quora_Question_Pair/9.png)  
+
+The PDFs are not prefectly overlapping, hence it will be a good feature.
+
+### Distribution of the fuzz_ratio
+
+![](/images/projects/Quora_Question_Pair/10.png)  
+
+Here also, the PDFs are not prefectly overlapping, hence it will be a good feature.  
+
+Since there are 15 such features, so let's take the visualization using T-SNE approach.
+
+### Dimensionality reduction by T-SNE
+
+![](/images/projects/Quora_Question_Pair/11.png)  
+
+Certainly, we can say that in some cases we can easily separate out 0 from 1. Hence, pointing out that our features will be helpful.
 
 
 # References
