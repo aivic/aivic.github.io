@@ -6,7 +6,7 @@ author_profile: true
 breadcrumbs: true
 ---
 
-11 more case studies are to be added, names of which are listed -  
+8 more case studies are to be added, names of which are listed -  
 
 NYC Taxi demand prediction (Kaggle) | Microsoft malware detection (Kaggle) | Facebook friend recommendation using graph mining | Netflix movie recommendation system | Human activity recognition | AI generated music | Self-driving car | Personalized cancer diagnosis.
 
