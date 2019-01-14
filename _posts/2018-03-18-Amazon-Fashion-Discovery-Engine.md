@@ -84,11 +84,11 @@ batch_size = 1
 # the weights are taken from imagenet
 ```
 Output -
-Target image -  
+Target product -  
 
 ![](/images/projects/Amazon-fashion-discovery-engine/1.jpg)  
 
-Recommended images -
+Recommended products -
 
 ![](/images/projects/Amazon-fashion-discovery-engine/2.jpg)
 ![](/images/projects/Amazon-fashion-discovery-engine/3.jpg)
