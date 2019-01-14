@@ -1,7 +1,7 @@
 ---
 title: "Amazon Fashion Discovery Engine"
 header:
-  teaser: /images/projects/amazon_logo.png
+  teaser: /images/projects/amazon_logo.jpg
 date: 2018-03-18
 categories:
   - Project
