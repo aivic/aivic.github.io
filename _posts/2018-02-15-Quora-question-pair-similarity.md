@@ -32,7 +32,7 @@ The data is available on [Kaggle](https://www.kaggle.com/c/quora-question-pairs/
 # Formulating a ML problem
 Since the target column is binary (0 - no similarity, 1 - similar), hence it's a **binary classification** problem.  
 
-The metric as suggested by Kaggle for this competition is **Log Loss** which is absolutely necessary to predict the certainity of two question similarity in terms of probability. A perfect value of log-loss is 0 and worst is 1.
+The metric as suggested by Kaggle for this competition is **Log Loss** which is absolutely necessary to predict the certainity of two question similarity in terms of probability. A perfect value of log-loss is `0` and worst is `inf`.
 
 
 # Exploratory Data Analysis
@@ -149,6 +149,34 @@ Since there are 15 such features, so let's take the visualization using T-SNE ap
 ![](/images/projects/Quora_Question_Pair/11.png)  
 
 Certainly, we can say that in some cases we can easily separate out 0 from 1. Hence, pointing out that our features will be helpful.
+
+## TF-IDF Glove (Global Vectors)
+Creating TF-IDF weighted Glove features for `question1` and `question2`.  
+
+Glove and Word2Vec builds on simliar core concept which is looking for semantic similarity. Optionally, we can also use Word2Vec.
+
+**Now, we have basic features, advanced features and TF-IDF weighted Glove features for each of the questions, making final set of independent features**
+
+# Machine Learning Model
+
+## Loading data
+Storing the CSV into a SQLite engine created database (just to explore) and loading up data to initiate the modeling. Next, split data into train-test.
+
+## Implementing models
+
+**1. Logistic Regression**  
+
+Implemented LR with hyper-parameter tuning, L2 regularisation, followed by calibrating the score (due to the log-loss which works only on calibrated models and LR may output some un-calibrated data).  
+
+Tuned LR results into a log-loss of **0.52** (Also checking overfitting, didn't occur)  
+
+**2. Linear SVM**  
+
+Also implemented linear SVM with a log-loss of **0.489**. (Also checking overfitting, didn't occur)  
+
+**3. GBDT - XGBoost**  
+
+Also implemented GBT with a log-loss of **0.35**. (Also checking overfitting, didn't occur)  
 
 
 # References
