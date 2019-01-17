@@ -6,9 +6,9 @@ author_profile: true
 breadcrumbs: true
 ---
 
-5 more case studies are to be added, names of which are listed -  
+4 more case studies are to be added, names of which are listed -  
 
-NYC Taxi demand prediction | Facebook friend recommendation using graph mining | Human activity recognition | AI generated music | Self-driving car
+Facebook friend recommendation using graph mining | Human activity recognition | AI generated music | Self-driving car
 
 
 {% include base_path %}
