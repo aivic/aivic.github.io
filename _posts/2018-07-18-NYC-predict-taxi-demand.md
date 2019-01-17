@@ -7,6 +7,7 @@ categories:
   - Project
 tags: 
   - Python
+  - Clustering
   - Machine Learning
   - EDA
 excerpt: "Predict number of pickups in a region at a given time."
@@ -17,7 +18,7 @@ To find number of pickups, given location coordinates (latitude and longitude) a
 
 ### Data sources
 Get the 2016 data from [NYC.GOV](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml).   
-In the given project we are considering only the yellow taxis for the time period between Jan - Mar 2015 & Jan - Mar 2016.  
+In the given project we are considering only the yellow taxis for the time period between Jan - Mar 2015 & Jan - Mar 2016 with given features. 
 
 <table border="1">
 	<tr>
@@ -128,6 +129,35 @@ In the given project we are considering only the yellow taxis for the time perio
 		<td>The total amount charged to passengers. Does not include cash tips.</td>
 	</tr>
 </table>
+
+### Mapping to a machine learning problem
+
+We need to predict the demand at a given time and region. So, we will treat it as a time-series forecasting problem keeping metric as MSE.
+
+# Exploratory Data Analysis
+
+### Pickup and Dropoff coordinates
+New York is bounded by the location cordinates(lat,long) - (40.5774, -74.15) & (40.9176,-73.7004), however there are many coordinates which lie outside the bounded region for pickups and dropoffs (see image below). So, we removed those data points.  
+
+![](/images/projects/Taxi-demand-Prediction/1.JPG)  
+
+### Trip duration
+Moving onto the `Trip` duration, according to NYC Taxi & Limousine Commision Regulations the maximum allowed trip duration in a 24 hour interval is 12 hours. So selecting only the data points whose trip times is greater than 1 and less than 720 minutes (12 hours). Given below is the PDF of log-trip-times along with its Normal Q-Q plot which says that the data follows a good normal distribution.  
+
+![](/images/projects/Taxi-demand-Prediction/2.png)  
+
+![](/images/projects/Taxi-demand-Prediction/3.png)  
+
+### Speed
+Taking the 99th percentile, replacing all the outliers by `45.31` (99th percentile). The average speed of taxis came out to be `12.45` miles/hr.
+
+### Distance
+Replacing outliers by 23 miles (99th percentile).
+
+### Total Fare
+Replacing outliers with 1000 (99th percentile)  
+
+*Note - While removing outliers, everytime we suppose a value greater than 0*
 
 
 
