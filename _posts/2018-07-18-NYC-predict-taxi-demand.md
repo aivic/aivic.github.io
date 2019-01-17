@@ -159,7 +159,23 @@ Replacing outliers with 1000 (99th percentile)
 
 *Note - While removing outliers, everytime we suppose a value greater than 0*
 
+# Data preparation
 
+Creating clusters across the NY city. Keeping minimum inter-cluster distance as 0.5 mile and maximum inter-cluster distance as 2 mile, since 2 miles can be covered in 10 minutes.  
+We choose the optimum number of clusters as 40 because on choosing a cluster size of  40 we have -  
+```python
+Avg. Number of Clusters within the vicinity (i.e. intercluster-distance < 2): 9.0   
+Avg. Number of Clusters outside the vicinity (i.e. intercluster-distance > 2): 31.0   
+Min inter-cluster distance =  0.5064095487015858  (as desired)  
+```
+
+**Cluster centers**  
+
+![](/images/projects/Taxi-demand-Prediction/4.JPG)  
+![](/images/projects/Taxi-demand-Prediction/5.JPG)  
+
+
+So finally, we have cluster IDs along with 10 minutes time bins. We see in many 10 minute time bins that number of pickups are zero. Such missing value is filled with interpolating and exterpolating. 
 
 # References
 * [Applied AI course](https://www.appliedaicourse.com)
