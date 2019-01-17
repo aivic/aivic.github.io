@@ -60,12 +60,32 @@ Many (Popular) movies are getting large number of ratings as compared to other m
 
 ![](/images/projects/Netflix-movie-recommendation/6.png)  
 
-### Constructing a compressed sparse matrix  
+### Constructing a compressed sparse matrix to form user-user similarity matrix and movie-movie similarity matrix 
 
-A compressed sparse row matrix with user ID (~480K) as index and movie ID (~17K) as features.
+A compressed sparse row matrix with user ID (~480K) as index and movie ID (~17K) as features.  
 
+Now, constructing a user-user similarity matrix which is computed by taking cosine similarity of one user vector against all, resulting into a desnse matrix of size ~480K x ~480K dimension. Similarly, movie-movie similarity dense matrix of dimension ~17K x ~17K can be constructed.  
 
+Since the above size is too large for a normal computer to process, hence we took a sample of compressed sparse matrix to achieve the same.
 
+## Feature extraction
+
+We know that as an input we will receive (user ID, movie ID) against which we need to predict the rating the user will give to given movie.  
+
+So, we can first construct three features as -
+* Global Average - The total average of all the movie ratings
+* User Average - The total average of ratings given by that user to all the movies
+* Movie Average - The total average of ratings given by all users belonging to the target movie.
+* Top 5 similar users - Next 5 features are built based on the top most 5 similar users to target user who have also watched the target movie.
+* Top 5 movies watched by user - Finding top 5 similar movies to target movie and getting the rating given by target user. If among top 5 movies, user has not given rating to let's say 4th movie, then top 6 movies similar are considered ignoring the 4th, in total keeping only 5 movies.
+
+Therefore, we have a total of 13 features to build our ML models.
+
+# Machine Learning model
+
+We implemented XG Boost model on given features resulting into a RMSE of 1.07  
+
+![](/images/projects/Netflix-movie-recommendation/7.png)  
 
 # References
 * [Applied AI course](https://www.appliedaicourse.com)
