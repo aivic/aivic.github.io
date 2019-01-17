@@ -6,7 +6,7 @@ title: "About"
 ### Hello, World! 
 I, [![](https://img.shields.io/badge/Vivek-Kumar-red.svg)](https://sourcerer.io/vivekec) welcome you to my webpage. Given below is my resume followed by associated organizations, tools and interests.  
 
-<p align="center">[PDF version](https://github.com/aivic/certifications/blob/master/Vivek_kumar_resume.pdf)</p>
+<p align="center"><a href='https://github.com/aivic/certifications/blob/master/Vivek_kumar_resume.pdf'>PDF version</a></p>
 
 
 ![Resume](/images/VK_resume.jpg)
