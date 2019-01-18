@@ -177,6 +177,9 @@ Min inter-cluster distance =  0.5064095487015858  (as desired)
 
 So finally, we have cluster IDs along with 10 minutes time bins. We see in many 10 minute time bins that number of pickups are zero. Such missing value is filled with interpolating and exterpolating. 
 
+
+**On-Hold: Will write soon.**
+
 # References
 * [Applied AI course](https://www.appliedaicourse.com)
 * [nyc.gov](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
